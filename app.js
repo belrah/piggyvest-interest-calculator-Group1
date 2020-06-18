@@ -63,7 +63,9 @@ const calculateResult = () => {
 
     //Display
     balance.style.display = "block";
-    results.innerText = totalPayment;
+    results.innerText = totalPayment.toLocaleString("en", {
+      maximumFractionDigits: 2,
+    });
     loader.style.display = "none";
   } else {
     showError("Please check your numbers");

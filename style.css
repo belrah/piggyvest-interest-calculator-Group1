@@ -197,7 +197,7 @@ ul.navbar-nav .nav-button {
 
 /* Newly Added styles */
 .submit {
-  margin: auto;
+  margin: 5px auto;
 }
 
 .loader {
@@ -220,6 +220,10 @@ ul.navbar-nav .nav-button {
   height: 2.2rem;
   text-align: center;
   border-radius: 5px;
+}
+
+.naira {
+  text-decoration: double line-through;
 }
 
 @media screen and (min-width: 768px) {
