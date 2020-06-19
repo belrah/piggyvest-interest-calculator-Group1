@@ -247,6 +247,7 @@ ul.navbar-nav .nav-button {
     background-position-y: center;
     background-color: #144499;
     color: white;
+    justify-items: center;
 }
 
 #download {
